@@ -125,7 +125,18 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['C++', 'Java', 'Android', 'Firebase', 'Android JetPack', 'MySQL', 'Python (Moderate)', 'JavaScript (ES6+)', 'React (Beginner)', 'Node.js (Beginner)'];
+  const skills = [
+    'C++',
+    'Java',
+    'Android',
+    'Firebase',
+    'Android JetPack',
+    'MySQL',
+    'Python (Moderate)',
+    'JavaScript (ES6+)',
+    'React (Beginner)',
+    'Node.js (Beginner)',
+  ];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -135,14 +146,14 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              Hello! I'm Atul Sharma, a self-taught programmer and an Android Developer who is always excited to get his hands dirty to build something interesting.
+              Hello! I'm Atul Sharma, a self-taught programmer and an Android Developer who is
+              always excited to get his hands dirty to build something interesting.
             </p>
             <p>
-              I enjoy working on projects in a team full of excited people like me rather than working alone.
+              I enjoy working on projects in a team full of excited people like me rather than
+              working alone.
             </p>
-            <p>
-              I love to solve existing real world problems to help people.
-            </p>
+            <p>I love to solve existing real world problems to help people.</p>
 
             <p>Here are a few technologies I've been working with recently:</p>
           </div>

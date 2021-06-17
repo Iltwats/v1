@@ -8,7 +8,7 @@ tech:
   - Android
   - Java
   - Firebase
-  
+
 showInProjects: true
 ---
 

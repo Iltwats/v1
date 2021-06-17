@@ -8,6 +8,7 @@ url: 'https://play.google.com/store/apps/details?id=com.logocial.karobar'
 ---
 
 Spent the internship period in solving exisitng problem of employee management for businesses and helped developed a solution which gives more dynamism to the businesses when it comes to attendance management. Contributed in:
+
 <ul>
 <li> Created the authentication system from scratch.</li>
 <li> Devised a method to automate attendance through QR codes.</li>

@@ -32,8 +32,7 @@ const StyledHeroSection = styled.section`
     margin-top: 10px;
     color: var(--slate);
     line-height: 0.9;
-    font-size: 60px
-
+    font-size: 70px;
   }
 
   p {
@@ -65,10 +64,10 @@ const Hero = () => {
   const three = <h3 className="big-heading">I build products that people will use</h3>;
   const four = (
     <p>
-      I'm a growing software developer, who specializes in building Android applications for best digital experiences.
-      I work as a freelancer. <br></br>Currently I'm an engineer at {' '}
-      <a href="https://thestreamliners.in/">The Streamliners</a> focused on building impactful products.
-      Also actively looking to make significant contribution to Open Source projects.
+      I'm a growing software developer, who specializes in building Android applications for best
+      digital experiences. I work as a freelancer. <br></br>Currently I'm an engineer at{' '}
+      <a href="https://thestreamliners.in/">The Streamliners</a> focused on building impactful
+      products. Also actively looking to make significant contribution to Open Source projects.
     </p>
   );
   const five = (
