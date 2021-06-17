@@ -5,7 +5,7 @@ module.exports = {
     title: 'Atul Sharma',
     description:
       'Atul Sharma is self-taught programmer and an Android Developer who is always excited to get his hands dirty to build something interesting.',
-    siteUrl: 'https://brittanychiang.com', // No trailing slash allowed! Add your real domain later
+    siteUrl: 'https://iltwats.github.io/', // No trailing slash allowed! Add your real domain later
     image: '/og.png', // Path to your image you placed in the 'static' folder
     twitterUsername: '@Iltwats_Atul',
   },
