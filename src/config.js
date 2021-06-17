@@ -18,7 +18,6 @@ module.exports = {
       name: 'Linkedin',
       url: 'https://www.linkedin.com/in/1220atul',
     },
-
   ],
 
   navLinks: [
@@ -45,7 +44,7 @@ module.exports = {
   ],
 
   colors: {
-    green: '#64ffda',
+    green: '#f12711',
     navy: '#0a192f',
     darkNavy: '#020c1b',
   },
