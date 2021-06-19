@@ -22,7 +22,7 @@ module.exports = {
       options: {
         name: 'Atul Sharma',
         short_name: 'AtulSharma',
-        start_url: '/',
+        start_url: 'https://iltwats.github.io/',
         background_color: config.colors.darkNavy,
         theme_color: config.colors.navy,
         display: 'minimal-ui',
