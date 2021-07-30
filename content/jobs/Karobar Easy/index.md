@@ -7,12 +7,15 @@ range: 'Jan - May 2021'
 url: 'https://play.google.com/store/apps/details?id=com.logocial.karobar'
 ---
 
-Spent the internship period in solving exisitng problem of employee management for businesses and helped developed a solution which gives more dynamism to the businesses when it comes to attendance management. Contributed in:
-
 <ul>
-<li> Created the authentication system from scratch.</li>
-<li> Devised a method to automate attendance through QR codes.</li>
-<li> Implemented Localization for the app in English and Hindi.</li>
-<li> Created invitation system through which only invited user can register in it's beta phase.</li>
-<li> Designed some of the UI/UX elements including Splash Screen.</li>
+    <li> Created Room Database structures that integrate with various functionality.</li>
+    <li> Designed authentication system, implemented localization,integration with QR code to automate manual attendance.</li>
+    <li> Deployed beta version with invitation system, which helped to identify bugs, user experience issues, and functionality problems.</li>
+    <li> Interacted with different versions of Android and its APIs.</li>
+    <li> Built a system to support multiple users and created UI elements.</li>
+    <li> Articulated technical risks and obstacles to key stakeholders.</li>
+    <li> Built a CI/CD for easier deployments with the help of GitHub actions.</li>
+    <li> Managed the branching and merging process for the source code repositories along with publishing app to play store.
+    </li>
+    <li> Tested code for robustness, executed edge case, usability and fixed bugs to improve application performance. </li>
 </ul>
