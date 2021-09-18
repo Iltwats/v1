@@ -126,16 +126,22 @@ const About = () => {
   }, []);
 
   const skills = [
-    'C++',
     'Java',
-    'Android',
+    'Kotlin',
+    'Android SDK',
     'Firebase',
-    'Android JetPack',
+    'JetPack Libraries',
     'MySQL',
-    'Python (Moderate)',
+    'RoomDB',
+    'Retrofit,Glide,Zxing',
+    'HTML & CSS',
+    'C++',
     'JavaScript (ES6+)',
+    'Node.js',
     'React (Beginner)',
-    'Node.js (Beginner)',
+    'Python (Moderate)',
+    'Markdown',
+    'Figma',
   ];
 
   return (
@@ -147,15 +153,18 @@ const About = () => {
           <div>
             <p>
               Hello! I'm Atul Sharma, a self-taught programmer and an Android Developer who is
-              always excited to get his hands dirty to build something interesting.
+              always excited to build something interesting.
             </p>
             <p>
-              I enjoy working on projects in a team full of excited people like me rather than
-              working alone.
+              I enjoy working on projects in a team full of excited people who wants to learn and
+              grow like me.
             </p>
             <p>I love to solve existing real world problems to help people.</p>
-
-            <p>Here are a few technologies I've been working with recently:</p>
+            <p>
+              Also, I document my developer journey and learnings on Medium (with 10,000+ monthly
+              readers) to help new developers in their journey.
+            </p>
+            <p>Here are a few technologies I've worked and been working with recently:</p>
           </div>
 
           <ul className="skills-list">

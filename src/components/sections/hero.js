@@ -32,12 +32,13 @@ const StyledHeroSection = styled.section`
     margin-top: 10px;
     color: var(--slate);
     line-height: 0.9;
-    font-size: 70px;
+    font-size: 54px;
   }
 
   p {
     margin: 20px 0 0;
     max-width: 500px;
+    font-size: 20px;
   }
 
   .email-link {
@@ -65,9 +66,11 @@ const Hero = () => {
   const four = (
     <p>
       I'm a growing software developer, who specializes in building Android applications for best
-      digital experiences. I work as a freelancer. <br></br>Currently I'm an engineer at{' '}
-      <a href="https://thestreamliners.in/">The Streamliners</a> focused on building impactful
-      products. Also actively looking to make significant contribution to Open Source projects.
+      digital experiences. I work as a freelancer and available for hire. <br />
+      Currently I'm an Android engineer at <a href="https://spacenos.com/">Spacenos</a> focused on
+      building impactful products which can create values in people lives.
+      <br />
+      Also actively looking to make significant contribution to Open Source projects.
     </p>
   );
   const five = (
