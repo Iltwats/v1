@@ -1,7 +1,7 @@
 {
-  "name": "i1",
+  "name": "i2",
   "description": "Personal Website",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "author": "Atul Sharma <2012atulsharma@gmail.com>",
   "homepage": "https://iltwats.github.io/",
   "repository": {
@@ -25,12 +25,13 @@
     "deploy": "gatsby build && gh-pages -d public -b deployment"
   },
   "lint-staged": {
-    "*.{js,css,json,md}": [
+    "src/**/*.{js,css,json,md}": [
       "prettier --write"
     ],
-    "*.js": [
+    "src/**/*.js": [
       "eslint --fix"
     ]
+    
   },
   "dependencies": {
     "animejs": "^3.2.1",
