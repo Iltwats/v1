@@ -4,7 +4,7 @@ module.exports = {
   siteMetadata: {
     title: 'Atul Sharma',
     description:
-      'Atul Sharma is self-taught programmer and an Android Developer who is always excited to get his hands dirty to build something interesting.',
+      'Atul Sharma is an software engineer specializes in mobile app development to create exceptional digital experiences and is always excited to build something interesting.',
     siteUrl: 'https://iltwats.github.io/', // No trailing slash allowed! Add your real domain later
     image: '/og.png', // Path to your image you placed in the 'static' folder
     twitterUsername: '@Iltwats_Atul',
