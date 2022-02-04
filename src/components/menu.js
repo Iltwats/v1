@@ -36,7 +36,7 @@ const StyledHamburgerButton = styled.button`
     display: inline-block;
     position: relative;
     width: var(--hamburger-width);
-    height: 24px;
+    height: 20px;
   }
 
   .ham-box-inner {

@@ -130,18 +130,12 @@ const About = () => {
     'Kotlin',
     'Android SDK',
     'Firebase',
-    'JetPack Libraries',
     'MySQL',
     'RoomDB',
-    'Retrofit,Glide,Zxing',
     'HTML & CSS',
-    'C++',
     'JavaScript (ES6+)',
     'Node.js',
-    'React (Beginner)',
-    'Python (Moderate)',
-    'Markdown',
-    'Figma',
+    'C++'
   ];
 
   return (
@@ -152,14 +146,12 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              Hello! I'm Atul Sharma, a self-taught programmer and an Android Developer who is
-              always excited to build something interesting.
+              Hello, I am an Android Engineer with 1+ years of experience who loves solving real-world problems by developing Android apps.
             </p>
             <p>
               I enjoy working on projects in a team full of excited people who wants to learn and
-              grow like me.
+              grow like me and In order to keep learning new things, I am always looking for projects and opportunities that will help me learn and upskill better.
             </p>
-            <p>I love to solve existing real world problems to help people.</p>
             <p>
               Also, I document my developer journey and learnings on Medium (with 10,000+ monthly
               readers) to help new developers in their journey.

@@ -17,7 +17,7 @@ const StyledHeroSection = styled.section`
   }
 
   h1 {
-    margin: 0 0 30px 4px;
+    margin: 0 0 16px 4px;
     color: var(--green);
     font-family: var(--font-mono);
     font-size: clamp(var(--fz-sm), 5vw, var(--fz-md));
@@ -32,7 +32,7 @@ const StyledHeroSection = styled.section`
     margin-top: 10px;
     color: var(--slate);
     line-height: 0.9;
-    font-size: 54px;
+    font-size: 48px;
   }
 
   p {
@@ -43,7 +43,7 @@ const StyledHeroSection = styled.section`
 
   .email-link {
     ${({ theme }) => theme.mixins.bigButton};
-    margin-top: 50px;
+    margin-top: 30px;
   }
 `;
 
@@ -65,12 +65,10 @@ const Hero = () => {
   const three = <h3 className="big-heading">I build products that people will use</h3>;
   const four = (
     <p>
-      I'm a growing software developer, who specializes in building Android applications for best
+      I'm a growing software engineer, who specializes in building Android applications for best
       digital experiences. I work as a freelancer and available for hire. <br />
-      Currently I'm an Android engineer at <a href="https://spacenos.com/">Spacenos</a> focused on
+      Currently I'm an Software Engineer at <a href="https://github.com/">GitHub India</a> focused on
       building impactful products which can create values in people lives.
-      <br />
-      Also actively looking to make significant contribution to Open Source projects.
     </p>
   );
   const five = (
