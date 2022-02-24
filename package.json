@@ -1,89 +1,85 @@
 {
-  "name": "i2",
-<<<<<<< HEAD
-  "description": "Personal Portfolio",
-  "version": "2.0.0",
-=======
-  "description": "Personal Website",
-  "version": "1.0.2",
->>>>>>> ca0367cc6f199174c64ea19dd1dd068879444460
-  "author": "Atul Sharma <2012atulsharma@gmail.com>",
-  "homepage": "https://iltwats.github.io/",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/Iltwats/iltwats.github.io"
-  },
-  "keywords": [
-    "gatsby"
-  ],
-  "license": "MIT",
-  "browserslist": "> 0.25%, not dead",
-  "scripts": {
-    "build": "gatsby build",
-    "develop": "gatsby develop",
-    "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
-    "start": "npm run develop",
-    "serve": "gatsby serve",
-    "clean": "gatsby clean",
-    "prepare": "husky install",
-    "lint-staged": "lint-staged",
-    "deploy": "gatsby build && gh-pages -d public -b deployment"
-  },
-  "lint-staged": {
-    "src/**/*.{js,css,json,md}": [
-      "prettier --write"
+    "name": "i2",
+    "description": "Personal Portfolio",
+    "version": "2.0.0",
+
+    "author": "Atul Sharma <2012atulsharma@gmail.com>",
+    "homepage": "https://iltwats.github.io/",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Iltwats/iltwats.github.io"
+    },
+    "keywords": [
+        "gatsby"
     ],
-    "src/**/*.js": [
-      "eslint --fix"
-    ]
-    
-  },
-  "dependencies": {
-    "animejs": "^3.2.1",
-    "babel-plugin-styled-components": "^1.13.2",
-    "gatsby": "^3.10.2",
-    "gatsby-plugin-google-analytics": "^3.10.0",
-    "gatsby-plugin-image": "^1.10.1",
-    "gatsby-plugin-manifest": "^3.10.0",
-    "gatsby-plugin-netlify": "^3.10.0",
-    "gatsby-plugin-offline": "^4.10.0",
-    "gatsby-plugin-react-helmet": "^4.10.0",
-    "gatsby-plugin-robots-txt": "^1.6.8",
-    "gatsby-plugin-sharp": "^3.10.2",
-    "gatsby-plugin-sitemap": "^4.6.0",
-    "gatsby-plugin-styled-components": "^4.10.0",
-    "gatsby-remark-external-links": "0.0.4",
-    "gatsby-remark-images": "^5.7.0",
-    "gatsby-remark-prismjs": "^5.7.0",
-    "gatsby-source-filesystem": "^3.10.0",
-    "gatsby-transformer-remark": "^4.7.0",
-    "gatsby-transformer-sharp": "^3.10.0",
-    "lodash": "^4.17.21",
-    "prismjs": "^1.24.1",
-    "prop-types": "^15.7.2",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
-    "react-helmet": "^6.1.0",
-    "react-transition-group": "^4.4.2",
-    "scrollreveal": "^4.0.9",
-    "smooth-scroll": "^16.1.3",
-    "styled-components": "^5.3.0"
-  },
-  "devDependencies": {
-    "@babel/core": "^7.14.8",
-    "@babel/eslint-parser": "^7.14.7",
-    "@babel/preset-react": "^7.14.5",
-    "@upstatement/eslint-config": "^1.0.1",
-    "@upstatement/prettier-config": "^1.0.0",
-    "babel-preset-gatsby": "^1.10.0",
-    "eslint": "^7.31.0",
-    "eslint-config-prettier": "^8.3.0",
-    "eslint-plugin-jsx-a11y": "^6.4.1",
-    "eslint-plugin-react": "^7.24.0",
-    "gatsby-remark-code-titles": "^1.1.0",
-    "gh-pages": "^3.2.3",
-    "husky": "^7.0.1",
-    "lint-staged": "^11.1.1",
-    "prettier": "^2.3.2"
-  }
+    "license": "MIT",
+    "browserslist": "> 0.25%, not dead",
+    "scripts": {
+        "build": "gatsby build",
+        "develop": "gatsby develop",
+        "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
+        "start": "npm run develop",
+        "serve": "gatsby serve",
+        "clean": "gatsby clean",
+        "prepare": "husky install",
+        "lint-staged": "lint-staged",
+        "deploy": "gatsby build && gh-pages -d public -b deployment"
+    },
+    "lint-staged": {
+        "src/**/*.{js,css,json,md}": [
+            "prettier --write"
+        ],
+        "src/**/*.js": [
+            "eslint --fix"
+        ]
+
+    },
+    "dependencies": {
+        "animejs": "^3.2.1",
+        "babel-plugin-styled-components": "^1.13.2",
+        "gatsby": "^3.10.2",
+        "gatsby-plugin-google-analytics": "^3.10.0",
+        "gatsby-plugin-image": "^1.10.1",
+        "gatsby-plugin-manifest": "^3.10.0",
+        "gatsby-plugin-netlify": "^3.10.0",
+        "gatsby-plugin-offline": "^4.10.0",
+        "gatsby-plugin-react-helmet": "^4.10.0",
+        "gatsby-plugin-robots-txt": "^1.6.8",
+        "gatsby-plugin-sharp": "^3.10.2",
+        "gatsby-plugin-sitemap": "^4.6.0",
+        "gatsby-plugin-styled-components": "^4.10.0",
+        "gatsby-remark-external-links": "0.0.4",
+        "gatsby-remark-images": "^5.7.0",
+        "gatsby-remark-prismjs": "^5.7.0",
+        "gatsby-source-filesystem": "^3.10.0",
+        "gatsby-transformer-remark": "^4.7.0",
+        "gatsby-transformer-sharp": "^3.10.0",
+        "lodash": "^4.17.21",
+        "prismjs": "^1.24.1",
+        "prop-types": "^15.7.2",
+        "react": "^17.0.2",
+        "react-dom": "^17.0.2",
+        "react-helmet": "^6.1.0",
+        "react-transition-group": "^4.4.2",
+        "scrollreveal": "^4.0.9",
+        "smooth-scroll": "^16.1.3",
+        "styled-components": "^5.3.0"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.14.8",
+        "@babel/eslint-parser": "^7.14.7",
+        "@babel/preset-react": "^7.14.5",
+        "@upstatement/eslint-config": "^1.0.1",
+        "@upstatement/prettier-config": "^1.0.0",
+        "babel-preset-gatsby": "^1.10.0",
+        "eslint": "^7.31.0",
+        "eslint-config-prettier": "^8.3.0",
+        "eslint-plugin-jsx-a11y": "^6.4.1",
+        "eslint-plugin-react": "^7.24.0",
+        "gatsby-remark-code-titles": "^1.1.0",
+        "gh-pages": "^3.2.3",
+        "husky": "^7.0.1",
+        "lint-staged": "^11.1.1",
+        "prettier": "^2.3.2"
+    }
 }
