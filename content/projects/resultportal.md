@@ -9,7 +9,7 @@ tech:
   - CSS
 
 company: 'JUEezy'
-showInProjects: false
+showInProjects: true
 ---
 
 Use this to check if you getting backlog or how much GPA you are scoring.
