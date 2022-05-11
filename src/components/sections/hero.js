@@ -66,9 +66,9 @@ const Hero = () => {
   const four = (
     <p>
       I'm a growing Software Engineer, who specializes in building Android applications for best
-      digital experiences. <br />
-      Currently I'm an SWE Intern at <a href="https://github.com/">GitHub</a> focused on
-      building impactful products which can create values in people lives.
+      digital experiences.<br/>
+      Focused on building impactful products which can create values in people lives.<br/>
+      Currently looking of opportunities to learn and available for hire.
     </p>
   );
   const five = (
