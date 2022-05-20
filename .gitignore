@@ -1,4 +1,4 @@
-# Project exclude paths
+# Project exclude paths, not to be pushed to remote
 /node_modules/
 .cache
 .husky
