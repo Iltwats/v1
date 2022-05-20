@@ -2,7 +2,6 @@
 date: '2021-05-31'
 title: 'Karobar Easy'
 cover: './karobar.png'
-external: 'https://play.google.com/store/apps/details?id=com.logocial.karobar'
 android: 'https://play.google.com/store/apps/details?id=com.logocial.karobar'
 tech:
   - Android

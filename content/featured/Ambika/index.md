@@ -2,7 +2,6 @@
 date: '2021-01-07'
 title: 'AmbikaParts'
 cover: './showcase.png'
-external: 'https://play.google.com/store/apps/details?id=com.streamliners.ambika'
 android: 'https://play.google.com/store/apps/details?id=com.streamliners.ambika'
 tech:
   - Android
