@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-Sitemap: https://iltwats.github.io/sitemap/sitemap-index.xml
-Host: https://iltwats.github.io
