@@ -54,7 +54,7 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
 
   // Extract tag data from query
   const tags = result.data.tagsGroup.group;
-  // Make tag pages
+  // Make tag pages for each tag
   tags.forEach(tag => {
     createPage({
       path: `/pensieve/tags/${_.kebabCase(tag.fieldValue)}/`,
