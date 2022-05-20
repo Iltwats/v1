@@ -128,12 +128,12 @@ const About = () => {
   const skills = [
     'Java',
     'Kotlin',
-    'Android SDK',
+    'Android Development',
     'Firebase',
     'MySQL',
-    'RoomDB',
+    'Golang',
     'HTML & CSS',
-    'JavaScript (ES6+)',
+    'JavaScript',
     'Node.js',
     'C++'
   ];
@@ -146,7 +146,8 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              Hello, I am an Android Engineer with 1+ years of experience who loves solving real-world problems by developing Android apps.
+              Hello, I am a Software Engineer with 1+ years of experience who loves solving real-world complex problems.
+              Worked on different technologies for developing various solutions on the web, command line, and android to bring the best digital experiences to the user.
             </p>
             <p>
               I enjoy working on projects in a team full of excited people who wants to learn and
