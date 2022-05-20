@@ -2,7 +2,7 @@
 date: '2021-12-10'
 title: 'Dibbs'
 cover: './dibbs.png'
-external: 'https://dibbstechnology.com/sign-up/'
+external: 'https://dibbstechnology.com/'
 android: 'https://play.google.com/store/apps/details?id=com.dibbs.android'
 tech:
   - Android
