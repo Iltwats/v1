@@ -311,6 +311,7 @@ const Featured = () => {
               }
               tech
               github
+              android
               external
             }
             html
@@ -337,14 +338,14 @@ const Featured = () => {
   return (
     <section id="projects">
       <h2 className="numbered-heading" ref={revealTitle}>
-        Some Things I’ve Built
+        Some Things I’ve Built Into Production
       </h2>
 
       <StyledProjectsGrid>
         {featuredProjects &&
           featuredProjects.map(({ node }, i) => {
             const { frontmatter, html } = node;
-            const { external, title, tech, github, cover } = frontmatter;
+            const { external, title, tech, github,android, cover } = frontmatter;
             const image = getImage(cover);
 
             return (
@@ -374,6 +375,11 @@ const Featured = () => {
                       {github && (
                         <a href={github} aria-label="GitHub Link">
                           <Icon name="GitHub" />
+                        </a>
+                      )}
+                      {android && (
+                        <a href={android} aria-label="Android Link">
+                          <Icon name="PlayStore" />
                         </a>
                       )}
                       {external && (
