@@ -3,10 +3,10 @@
     "description": "Personal Portfolio",
     "version": "3.0.1",
     "author": "Atul Sharma <2012atulsharma@gmail.com>",
-    "homepage": "https://iltwats.github.io/",
+    "homepage": "https://iltwats.github.io/v1",
     "repository": {
         "type": "git",
-        "url": "https://github.com/Iltwats/iltwats.github.io"
+        "url": "https://github.com/Iltwats/v1"
     },
     "keywords": [
         "gatsby"
