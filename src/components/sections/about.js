@@ -146,7 +146,7 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              Hello, I am a Software Engineer with 1+ years of experience who loves solving real-world complex problems.
+              Hello, I am a Software Engineer with 2 years of experience who loves solving real-world complex problems.
               Worked on different technologies for developing various solutions on the web, command line, and android to bring the best digital experiences to the user.
             </p>
             <p>

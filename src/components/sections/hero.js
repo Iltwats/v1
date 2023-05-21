@@ -65,9 +65,8 @@ const Hero = () => {
   const three = <h3 className="big-heading">I build products that people will use</h3>;
   const four = (
     <p>
-      I'm a growing Software Engineer, who specializes in building Android applications for best
-      digital experiences.<br/>
-      Focused on building impactful products which can create values in people lives.<br/>
+      I'm a Software Engineer, who specializes in building mobile applications for best
+      digital and impactful valuable experiences.<br/>
       Currently looking of opportunities to learn and available for hire.
     </p>
   );
