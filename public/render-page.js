@@ -8138,43 +8138,6 @@ const IconGitHub = () => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default
 
 /***/ }),
 
-/***/ "./src/components/icons/hex.js":
-/*!*************************************!*\
-  !*** ./src/components/icons/hex.js ***!
-  \*************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-
-
-const IconHex = () => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("svg", {
-  id: "hex",
-  xmlns: "http://www.w3.org/2000/svg",
-  role: "img",
-  viewBox: "0 0 84 96"
-}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("title", null, "Hexagon"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("g", {
-  transform: "translate(-8.000000, -2.000000)"
-}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("g", {
-  transform: "translate(11.000000, 5.000000)"
-}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("polygon", {
-  stroke: "currentColor",
-  strokeWidth: "5",
-  strokeLinecap: "round",
-  strokeLinejoin: "round",
-  points: "39 0 0 22 0 67 39 90 78 68 78 23",
-  fill: "currentColor"
-}))));
-
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (IconHex);
-
-/***/ }),
-
 /***/ "./src/components/icons/icon.js":
 /*!**************************************!*\
   !*** ./src/components/icons/icon.js ***!
@@ -8269,15 +8232,14 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "IconFolder": () => (/* reexport safe */ _folder__WEBPACK_IMPORTED_MODULE_4__["default"]),
 /* harmony export */   "IconFork": () => (/* reexport safe */ _fork__WEBPACK_IMPORTED_MODULE_5__["default"]),
 /* harmony export */   "Icon": () => (/* reexport safe */ _icon__WEBPACK_IMPORTED_MODULE_6__["default"]),
-/* harmony export */   "IconHex": () => (/* reexport safe */ _hex__WEBPACK_IMPORTED_MODULE_7__["default"]),
-/* harmony export */   "IconGitHub": () => (/* reexport safe */ _github__WEBPACK_IMPORTED_MODULE_8__["default"]),
-/* harmony export */   "IconInstagram": () => (/* reexport safe */ _instagram__WEBPACK_IMPORTED_MODULE_9__["default"]),
-/* harmony export */   "IconLinkedin": () => (/* reexport safe */ _linkedin__WEBPACK_IMPORTED_MODULE_10__["default"]),
-/* harmony export */   "IconLoader": () => (/* reexport safe */ _loader__WEBPACK_IMPORTED_MODULE_11__["default"]),
-/* harmony export */   "IconLogo": () => (/* reexport safe */ _logo__WEBPACK_IMPORTED_MODULE_12__["default"]),
-/* harmony export */   "IconPlayStore": () => (/* reexport safe */ _playstore__WEBPACK_IMPORTED_MODULE_13__["default"]),
-/* harmony export */   "IconStar": () => (/* reexport safe */ _star__WEBPACK_IMPORTED_MODULE_14__["default"]),
-/* harmony export */   "IconTwitter": () => (/* reexport safe */ _twitter__WEBPACK_IMPORTED_MODULE_15__["default"])
+/* harmony export */   "IconGitHub": () => (/* reexport safe */ _github__WEBPACK_IMPORTED_MODULE_7__["default"]),
+/* harmony export */   "IconInstagram": () => (/* reexport safe */ _instagram__WEBPACK_IMPORTED_MODULE_8__["default"]),
+/* harmony export */   "IconLinkedin": () => (/* reexport safe */ _linkedin__WEBPACK_IMPORTED_MODULE_9__["default"]),
+/* harmony export */   "IconLoader": () => (/* reexport safe */ _loader__WEBPACK_IMPORTED_MODULE_10__["default"]),
+/* harmony export */   "IconLogo": () => (/* reexport safe */ _logo__WEBPACK_IMPORTED_MODULE_11__["default"]),
+/* harmony export */   "IconPlayStore": () => (/* reexport safe */ _playstore__WEBPACK_IMPORTED_MODULE_12__["default"]),
+/* harmony export */   "IconStar": () => (/* reexport safe */ _star__WEBPACK_IMPORTED_MODULE_13__["default"]),
+/* harmony export */   "IconTwitter": () => (/* reexport safe */ _twitter__WEBPACK_IMPORTED_MODULE_14__["default"])
 /* harmony export */ });
 /* harmony import */ var _appstore__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./appstore */ "./src/components/icons/appstore.js");
 /* harmony import */ var _bookmark__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./bookmark */ "./src/components/icons/bookmark.js");
@@ -8286,22 +8248,21 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _folder__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./folder */ "./src/components/icons/folder.js");
 /* harmony import */ var _fork__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./fork */ "./src/components/icons/fork.js");
 /* harmony import */ var _icon__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./icon */ "./src/components/icons/icon.js");
-/* harmony import */ var _hex__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./hex */ "./src/components/icons/hex.js");
-/* harmony import */ var _github__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./github */ "./src/components/icons/github.js");
-/* harmony import */ var _instagram__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./instagram */ "./src/components/icons/instagram.js");
-/* harmony import */ var _linkedin__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./linkedin */ "./src/components/icons/linkedin.js");
-/* harmony import */ var _loader__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./loader */ "./src/components/icons/loader.js");
-/* harmony import */ var _logo__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./logo */ "./src/components/icons/logo.js");
-/* harmony import */ var _playstore__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./playstore */ "./src/components/icons/playstore.js");
-/* harmony import */ var _star__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./star */ "./src/components/icons/star.js");
-/* harmony import */ var _twitter__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./twitter */ "./src/components/icons/twitter.js");
+/* harmony import */ var _github__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./github */ "./src/components/icons/github.js");
+/* harmony import */ var _instagram__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./instagram */ "./src/components/icons/instagram.js");
+/* harmony import */ var _linkedin__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./linkedin */ "./src/components/icons/linkedin.js");
+/* harmony import */ var _loader__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./loader */ "./src/components/icons/loader.js");
+/* harmony import */ var _logo__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./logo */ "./src/components/icons/logo.js");
+/* harmony import */ var _playstore__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./playstore */ "./src/components/icons/playstore.js");
+/* harmony import */ var _star__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./star */ "./src/components/icons/star.js");
+/* harmony import */ var _twitter__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./twitter */ "./src/components/icons/twitter.js");
 
 
 
 
 
 
-
+ // export { default as IconHex } from './hex';
 
 
 
@@ -9473,7 +9434,7 @@ __webpack_require__.r(__webpack_exports__);
 
 const StyledHeroSection = styled_components__WEBPACK_IMPORTED_MODULE_4__["default"].section.withConfig({
   displayName: "hero__StyledHeroSection"
-})(["", ";flex-direction:column;align-items:flex-start;min-height:100vh;height:100vh;padding:0;@media (max-height:700px) and (min-width:700px),(max-width:360px){height:auto;padding-top:var(--nav-height);}h1{margin:0 0 30px 4px;color:var(--green);font-family:var(--font-mono);font-size:clamp(var(--fz-sm),5vw,var(--fz-md));font-weight:400;@media (max-width:480px){margin:0 0 20px 2px;}}h3{margin-top:5px;color:var(--slate);line-height:0.9;}p{margin:20px 0 0;max-width:540px;}.email-link{", ";margin-top:50px;}"], ({
+})(["", ";flex-direction:column;align-items:flex-start;min-height:100vh;height:100vh;padding:0;@media (max-height:700px) and (min-width:700px),(max-width:360px){height:auto;padding-top:var(--nav-height);}h1{margin:0 0 30px 4px;color:var(--green);font-family:var(--font-mono);font-size:clamp(var(--fz-sm),5vw,var(--fz-md));font-weight:400;@media (max-width:480px){margin:0 0 20px 2px;}}h3{margin-top:5px;color:var(--slate);line-height:0.9;font-size:48px;}p{margin:20px 0 0;max-width:540px;}.email-link{", ";margin-top:50px;}"], ({
   theme
 }) => theme.mixins.flexCenter, ({
   theme
