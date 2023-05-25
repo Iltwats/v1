@@ -34,6 +34,7 @@ h3 {
   margin-top: 5px;
   color: var(--slate);
   line-height: 0.9;
+  font-size: 48px;
 }
 
 p {
