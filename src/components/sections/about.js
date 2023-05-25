@@ -22,6 +22,7 @@ const StyledText = styled.div`
   ul.skills-list {
     display: grid;
     grid-template-columns: repeat(2, minmax(140px, 200px));
+    grid-gap: 0 10px;
     padding: 0;
     margin: 20px 0 0 0;
     overflow: hidden;
@@ -64,12 +65,11 @@ const StyledPic = styled.div`
 
     &:hover,
     &:focus {
-      background: transparent;
       outline: 0;
+      transform: translate(-4px, -4px);
 
       &:after {
-        top: 15px;
-        left: 15px;
+        transform: translate(8px, 8px);
       }
 
       .img {
@@ -106,8 +106,8 @@ const StyledPic = styled.div`
 
     &:after {
       border: 2px solid var(--green);
-      top: 20px;
-      left: 20px;
+      top: 14px;
+      left: 14px;
       z-index: -1;
     }
   }
@@ -125,18 +125,7 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = [
-    'Java',
-    'Kotlin',
-    'Android Development',
-    'Firebase',
-    'MySQL',
-    'Golang',
-    'HTML & CSS',
-    'JavaScript',
-    'Node.js',
-    'C++'
-  ];
+  const skills = ['Java', 'Android Development', 'Kotlin', 'JetPack Compose', 'Golang', 'JavaScript', 'NodeJS', 'C++','Google Cloud'];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -146,18 +135,28 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              Hello, I am a Software Engineer with 2 years of experience who loves solving real-world complex problems.
-              Worked on different technologies for developing various solutions on the web, command line, and android to bring the best digital experiences to the user.
+            Hello, I am a Software Engineer with 2 years of experience with passion to solve complex real-world problems.
+            I have worked with various technologies to develop web, command line, and mobile solutions, aiming to provide
+            the best digital experiences for users.
             </p>
+
             <p>
-              I enjoy working on projects in a team full of excited people who wants to learn and
-              grow like me and In order to keep learning new things, I am always looking for projects and opportunities that will help me learn and upskill better.
+             Throughout my career, I have had the privilege of working for diverse entities, including a{" "} 
+             <a href="https://www.spacenos.com/">product studio</a>,{" "}
+             <a href="https://thestreamliners.in/">a start-up</a>,{" "} 
+             <a href="https://dst.gov.in/">a government organization</a>, and renowned corporations such as{" "}
+             <a href="https://www.github.com/">GitHub</a> and{" "}
+             <a href="https://jp.mercari.com/">Mercari, Inc</a>.
             </p>
+
             <p>
-              Also, I document my developer journey and learnings on Medium (with 10,000+ monthly
-              readers) to help new developers in their journey.
+            Furthermore, I share my developer journey and insights on{" "}
+            <a href="https://2012atulsharma.medium.com">Medium</a>, where I have a readership of over 10,000 individuals per month. 
+            My goal is to assist aspiring developers in their own journeys. 
+            I am dedicated to building accessible and inclusive products and digital experiences that cater to mobile users.
             </p>
-            <p>Here are a few technologies I've worked and been working with recently:</p>
+
+            <p>Here are a few technologies I have recently worked with and gained experience in:</p>
           </div>
 
           <ul className="skills-list">
@@ -170,8 +169,8 @@ const About = () => {
             <StaticImage
               className="img"
               src="../../images/me.jpg"
-              width={1024}
-              quality={100}
+              width={500}
+              quality={95}
               formats={['AUTO', 'WEBP', 'AVIF']}
               alt="Headshot"
             />
