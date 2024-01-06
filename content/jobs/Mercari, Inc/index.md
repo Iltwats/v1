@@ -3,7 +3,7 @@ date: '2023-01-16'
 title: 'Software Engineer Intern'
 company: 'Mercari, Inc'
 location: 'Tokyo, JP'
-range: 'January 2023 - April 2023'
+range: 'January 2023 - June 2023'
 url: 'https://jp.mercari.com/'
 ---
 
