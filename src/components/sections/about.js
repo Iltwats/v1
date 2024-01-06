@@ -125,7 +125,7 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['Java', 'Android Development', 'Kotlin', 'JetPack Compose', 'Golang', 'JavaScript', 'NodeJS', 'C++','Google Cloud'];
+  const skills = ['Android Development', 'Kotlin', 'Ruby on Rails', 'React', 'JavaScript', 'NodeJS', 'C++','Go'];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -145,8 +145,9 @@ const About = () => {
              <a href="https://www.spacenos.com/">product studio</a>,{" "}
              <a href="https://thestreamliners.in/">a start-up</a>,{" "} 
              <a href="https://dst.gov.in/">a government organization</a>, and renowned corporations such as{" "}
-             <a href="https://www.github.com/">GitHub</a> and{" "}
-             <a href="https://jp.mercari.com/">Mercari, Inc</a>.
+             <a href="https://www.github.com/">GitHub</a>,{" "}
+             <a href="https://jp.mercari.com/">Mercari, Inc</a>, and{" "}
+             <a href="https://hackerrank.com/">Hackerrank</a>.
             </p>
 
             <p>

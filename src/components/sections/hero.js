@@ -66,9 +66,9 @@ const Hero = () => {
   const three = <h3 className="big-heading">I build products that people will use</h3>;
   const four = (
     <p>
-      I'm a Software Engineer, who specializes in building mobile applications for best
-      digital and impactful valuable experiences.<br/>
-      Currently looking of opportunities to learn and available for hire.
+      I'm a Software Engineer, who specializes in building software and applications that
+      deliver optimal digital experiences that prioritize inclusivity and value.<br/>
+      Currently, an engineer at <a href='https://hackerrank.com'>Hackerrank</a>, building the next generation of developer hiring platform.
     </p>
   );
   const five = (
